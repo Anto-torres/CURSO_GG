@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #7E9CC2; /* fondo azul */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/* SIN espacio arriba y abajo, solo blanco a los lados */
+.marco{
+    background: white;
+    width: 900px;
+    max-width: 95%;
+    padding: 0 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px; /* CON espacio entre fila arriba y abajo */
+}
+
+/* CON espacio entre fotos de lado a lado */
+.fila{
+    display: flex;
+    gap: 6px;
+}
+
+.fila img{
+    flex: 1;
+    width: 33.33%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
