@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #91acd5;
+    font-family: Arial, sans-serif;
+    padding: 60px;
+}
+
+.container {
+    width: 745px;
+    height: 558px;
+    background: #f7faff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services {
+    width: 90%;
+    text-align: center;
+}
+
+.header span {
+    font-size: 10px;
+    color: #526caa;
+}
+
+.header h1 {
+    font-size: 23px;
+    color: #08082e;
+    margin: 10px;
+}
+
+.header p {
+    font-size: 9px;
+    color: #777;
+    margin-bottom: 35px;
+}
+
+/* TARJETAS */
+
+.services-content {
+    background: #050536;
+    padding: 0 9%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card {
+    background: white;
+    padding: 20px 15px;
+    height: 162px;
+    text-align: left;
+
+    flex-grow: 1;
+    flex-basis: 150px;
+}
+
+.icon {
+    font-size: 24px;
+    color: #92929e;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 9px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.card a {
+    font-size: 9px;
+    color: #3458c5;
+    text-decoration: none;
+}
+
+/* BOTON */
+
+.button-container {
+    background: #050536;
+    height: 77px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: #2855e9;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 23px;
+    font-size: 9px;
+}
+
