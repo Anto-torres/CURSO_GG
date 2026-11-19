@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+
+    <div class="dashboard">
+
+        <!-- MENU LATERAL -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <h2>GESTIÓN TI</h2>
+                <p>Panel Administrativo</p>
+            </div>
+
+            <nav>
+                <a href="#" class="active">🏠 Inicio</a>
+                <a href="#">👥 Usuarios</a>
+                <a href="#">💻 Equipos</a>
+                <a href="#">📊 Reportes</a>
+                <a href="#">🔧 Mantenimiento</a>
+                <a href="#">⚙ Configuración</a>
+            </nav>
+
+            <div class="sidebar-footer">
+                APSTI ANTO - Sistema de Gestión TI
+                <br>
+                Versión 1.0
+            </div>
+
+        </aside>
+
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <main class="contenido">
+
+            <!-- ENCABEZADO -->
+            <header class="encabezado">
+
+                <div class="titulo">
+                    <h2>Panel de Administración</h2>
+                    <p>Bienvenido al sistema de gestión tecnológica</p>
+                </div>
+
+                <div class="administrador">
+
+                    <div class="avatar">AD</div>
+
+                    <div class="datos">
+                        <input type="text" placeholder="Inserta tu nombre">
+                        <small>Administrador</small>
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- RESUMEN GENERAL -->
+            <section class="resumen">
+
+                <h3>Resumen general</h3>
+
+                <p>
+                    Desde este panel puedes supervisar los equipos informáticos
+                    y las incidencias técnicas.
+                </p>
+
+                <div class="tarjetas">
+
+                    <!-- TARJETA 1 -->
+                    <div class="tarjeta azul">
+
+                        <div class="icono">💻</div>
+
+                        <div class="informacion">
+                            <h4>Total de equipos</h4>
+                            <h2>120</h2>
+                            <small>Equipos registrados</small>
+                        </div>
+
+                    </div>
+
+
+                    <!-- TARJETA 2 -->
+                    <div class="tarjeta verde">
+
+                        <div class="icono">✔️</div>
+
+                        <div class="informacion">
+                            <h4>Equipos operativos</h4>
+                            <h2>95</h2>
+                            <small>En funcionamiento</small>
+                        </div>
+
+                    </div>
+
+
+                    <!-- TARJETA 3 -->
+                    <div class="tarjeta naranja">
+
+                        <div class="icono">🔧</div>
+
+                        <div class="informacion">
+                            <h4>En mantenimiento</h4>
+                            <h2>15</h2>
+                            <small>Requieren atención</small>
+                        </div>
+
+                    </div>
+
+
+                    <!-- TARJETA 4 -->
+                     <div class="tarjeta morado">
+
+                        <div class="icono">📦</div>
+
+                        <div class="informacion">
+                            <h4>Equipos Obsoletos</h4>
+                            <h2>05</h2>
+                            <small>Equipos fuera de servicio</small>
+                        </div>
+
+                    </div>
+                    
+
+
+                    <!-- TARJETA 5 -->
+                    <div class="tarjeta rojo">
+
+                        <div class="icono">⚠️</div>
+
+                        <div class="informacion">
+                            <h4>Incidencias pendientes</h4>
+                            <h2>10</h2>
+                            <small>Por resolver</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- TABLA DE EQUIPOS -->
+            <section class="tabla-seccion">
+
+                <h3>Últimos equipos registrados</h3>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Fecha de Ingreso</th>
+                            <th>Equipo</th>
+                            <th>Área</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>EQ-001</td>
+                            <td>10/11/2026</td>
+                            <td>Computadora Dell</td>
+                            <td>Administración</td>
+                            <td>
+                                <span class="estado operativo">
+                                    Operativo
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>EQ-002</td>
+                            <td>11/11/2026</td>
+                            <td>Laptop HP</td>
+                            <td>Contabilidad</td>
+                            <td>
+                                <span class="estado mantenimiento">
+                                    Mantenimiento
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>EQ-003</td>
+                            <td>12/11/2026</td>
+                            <td>Computadora Lenovo</td>
+                            <td>Informática</td>
+                            <td>
+                                <span class="estado operativo">
+                                    Operativo
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>EQ-004</td>
+                            <td>13/11/2026</td>
+                            <td>Impresora Epson</td>
+                            <td>Secretaría</td>
+                            <td>
+                                <span class="estado pendiente">
+                                    Pendiente
+                                </span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+
+            <!-- PIE DE PAGINA -->
+            <footer>
+                © 2026 ANDROMEDA - Todos los derechos reservados
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
